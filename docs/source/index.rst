@@ -20,5 +20,15 @@ Contents
 --------
 
 .. toctree::
+   :hidden:
+   :name: sec-main
 
    getting-started
+   contributing
+
+.. toctree::
+   :hidden:
+   :name: sec-puzzles
+
+   puzzles/aquarium
+   puzzles/battleships
