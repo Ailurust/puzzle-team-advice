@@ -10,7 +10,7 @@ Rules
 * You can perform only capture moves.
 * Your goal is to end up with one single piece on the board.
 * **Ranger:** You are allowed to capture the king.
-* **Solo:** Pieces can only move twice, and you are NOT allowed to capture the king, which is the last piece.
+* **Solo:** Pieces can only move twice, and you are NOT allowed to capture the king. The king must be the final piece on the board.
 * **Melee:** White moves first, and each color alternates turns.
 
 Options
