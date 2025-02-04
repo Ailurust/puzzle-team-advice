@@ -33,5 +33,5 @@ Contents
    puzzles/aquarium
    puzzles/battleships
    puzzles/binairo
-   puzzles/binairo-plus
    puzzles/boggle
+   puzzles/chess
