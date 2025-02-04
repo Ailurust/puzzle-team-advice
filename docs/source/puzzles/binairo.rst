@@ -57,4 +57,4 @@ If you can’t do that, but can figure out exactly which tiles go in each gap, t
 Some gaps can be filled in in only one way given a certain set of available colors. These are all also true with the
 colors reversed. See the picture below:
 
-.. image:: img/binairo/gaps.png
+.. image:: ../img/binairo/gaps.png
