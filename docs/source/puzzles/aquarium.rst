@@ -4,7 +4,7 @@ Aquarium
 Rules
 -----
 
-*(sourced from `puzzle-aquarium.com <https://www.puzzle-aquarium.com>`_)*
+(sourced from `puzzle-aquarium.com <https://www.puzzle-aquarium.com>`_)
 
 * The puzzle is played on a rectangular grid divided into blocks called "aquariums"
 * You have to "fill" the aquariums with water up to a certain level or leave it empty.

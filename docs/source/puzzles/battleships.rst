@@ -4,7 +4,7 @@ Battleships
 Rules
 -----
 
-*(sourced from `puzzle-battleships.com <https://www.puzzle-battleships.com>`_)*
+(sourced from `puzzle-battleships.com <https://www.puzzle-battleships.com>`_)
 
 * You have to find the location of the battleships hidden in the grid. Some battleships may be partially revealed.
 * A battleship is a straight line of consecutive black cells.
