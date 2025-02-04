@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
-=======================================
+puzzle-team-advice
+==================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+community-driven documentation for logic puzzles (see puzzle-loop.com)
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+hosted on `readthedocs <https://about.readthedocs.com/>`_

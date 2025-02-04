@@ -1,22 +1,23 @@
-Welcome to Lumache's documentation!
-===================================
+Puzzle Team Advice
+==================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+This documentation provides useful advice for the logic puzzles
+found on the `PuzzleTeam websites <https://puzzle-loop.com>`_.
+All members of the community are welcome to contribute!
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+These docs are heavily based off qqwref's Google Doc of the same name, found `here <https://docs.google.com/document/d/1nPSvKhus85OFjCRBSghea3UnVFGMcXyMkEN68znJOFA>`_.
+The difference between this site and the doc are that this aims to have fully updated and clarified information,
+guides on newer puzzles not included in the original, and the ability for anyone to suggest changes or additions.
 
 .. note::
 
-   This project is under active development.
+   This project is still very much a work in progress! If you have any problems,
+   contact me through the PuzzleTeam discord server (@beatrixwashere),
+   or create an issue in the GitHub repository. Thanks!
 
 Contents
 --------
 
 .. toctree::
 
-   usage
-   api
+   getting-started
