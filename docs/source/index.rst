@@ -14,7 +14,7 @@ guides on newer puzzles not included in the original, and the ability for anyone
 
    This project is still very much a work in progress! If you have any problems,
    contact me through the `PuzzleTeam Discord server <https://discord.com/invite/YJp77jFzWv>`_ (@beatrixwashere),
-   or create an issue in the `GitHub repository <https://github.com/beatrixwashere/puzzle-team-advice>`. Thanks!
+   or create an issue in the `GitHub repository <https://github.com/beatrixwashere/puzzle-team-advice>`_. Thanks!
 
 Contents
 --------
