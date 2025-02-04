@@ -40,3 +40,6 @@ pieces that have a very limited amount of moves available.
 If you're trying out paths, it's important to be able to tell when you hit a dead end, and reach a state where solving the
 puzzle is impossible. Using a depth-first search approach can sometimes be helpful, but is ultimately slower most of the
 time, and it's better to practice getting the correct solutions without resorting to bruteforcing.
+
+Solo chess relies heavily on the king being the final piece, and on most puzzles it's much easier to find out where this
+final piece ends up. The king also tends to move twice in the puzzle, but kings with one move also appear.

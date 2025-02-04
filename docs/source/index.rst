@@ -35,3 +35,4 @@ Contents
    puzzles/binairo
    puzzles/boggle
    puzzles/chess
+   puzzles/dominosa
