@@ -28,7 +28,9 @@ Contents
 
 .. toctree::
    :hidden:
+   :caption: Puzzles
    :name: sec-puzzles
 
    puzzles/aquarium
    puzzles/battleships
+   puzzles/binairo
