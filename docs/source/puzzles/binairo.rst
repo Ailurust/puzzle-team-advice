@@ -11,10 +11,10 @@ Rules
 * The goal is to place circles in all cells in such a way that:
 
   1. Each row and each column must contain an equal number of white and black circles.
-  2. More than two circles of the same color can't be adjacent.
+  2. More than two consecutive circles of the same color in the same row/column is not allowed.
   3. **Binairo:** Each row and column is unique.
   4. **Binairo+:** Two cells with a "=" sign between them should contain circles of the same type.
-  4. **Binairo+:** Two cells with a "x" sign between them should contain circles of the opposite type.
+  5. **Binairo+:** Two cells with a "x" sign between them should contain circles of the opposite type.
 
 Options
 -------
@@ -22,7 +22,7 @@ Options
 * “Highlight 3 in a row of the same color”
 * “Highlight more than allowed of the same color”
 * **Binairo:** “Highlight duplicate rows/columns”
-* **Binairo+:** Highlight comparison errors"
+* **Binairo+:** "Highlight comparison errors"
 * “Prominent errors”
 * “Show counters” + “Count remaining”
 * The "Squares" style can be helpful for spotting patterns.
@@ -89,7 +89,7 @@ logic applies except with pairs of two of the same color rather than alternating
 The same counter logic from normal Binairo also applies here, with the comparisons adding some further depth on where
 certain colors are forced. Here's one example (rotated to fit the page better, counter is 1 black left and 3 white left):
 
-.. image:: ../img/binairo-plus/xforce.png
+.. image:: ../img/binairo/plus/xforce.png
 
 Trying to apply the original counter logic doesn't help in this scenario, but since the x comparison requires one black cell
 and one white cell, the empty cells outside of it can be colored white, since there will be 2 whites left regardless of how
