@@ -22,6 +22,8 @@ Options
 * “Highlight duplicate rows/columns”
 * “Prominent errors”
 * “Show counters” + “Count remaining”
+* The "Squares" style can be helpful for spotting patterns.
+* Setting a different default background color also helps.
 
 Basic Logic
 -----------

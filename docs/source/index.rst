@@ -20,7 +20,6 @@ Contents
 --------
 
 .. toctree::
-   :hidden:
    :name: sec-main
 
    getting-started
@@ -34,3 +33,4 @@ Contents
    puzzles/aquarium
    puzzles/battleships
    puzzles/binairo
+   puzzles/binairo-plus
