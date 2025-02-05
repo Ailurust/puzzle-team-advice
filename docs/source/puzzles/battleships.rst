@@ -9,7 +9,7 @@ Rules
 * You have to find the location of the battleships hidden in the grid. Some battleships may be partially revealed.
 * A battleship is a straight line of consecutive black cells.
 * The number of the battleships from each size is shown in the legend below the grid.
-* 2 battleships cannot touch each other (even diagonally).
+* Two battleships cannot touch each other (even diagonally).
 * The numbers outside the grid show the number of cells occupied by battleships on that row/column.
 
 Options
