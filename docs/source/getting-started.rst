@@ -30,6 +30,17 @@ General Tips
 * Google en passant
 * Practice!!!!!
 
+
+Terminology
+----------
+
+Some terms are used fairly consistently accross different puzzle types.
+
+  **Cell** - a single square on a grid-based puzzle
+  **Region** - an enclosed group of cells
+  **Clue/Given** - a piece of information provided in the base state of a particular puzzle
+  
+
 About Uniqueness
 ----------
 
