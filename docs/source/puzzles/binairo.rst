@@ -69,9 +69,7 @@ Binairo+ Introduction
 
 As the name suggests, Binairo+ is essentially the same puzzle as normal Binairo, except the "no duplicate rows/columns"
 rule is replaced with the "x" and "=" comparisons. This introduces some new logic, and eliminates a lot of the guesswork
-that came with the duplicate rule. I highly recommend checking out the
-`guide for normal Binairo <https://puzzle-team-advice.readthedocs.io/en/latest/puzzles/binairo.html>`_ before continuing
-reading this one.
+that came with the duplicate rule.
 
 Binairo+ Logic
 --------------
