@@ -25,7 +25,7 @@ Introduction
 
 .. note::
 
-   This page is adapted from `haramey's Galaxies Speedsolving Guide <https://docs.google.com/document/d/1aLNP7i8tM-BDhwivFIOox9VrCYLFe403hzpnVIgXCUI/edit?usp=sharing>`.
+   This page is adapted from `haramey's Galaxies Speedsolving Guide <https://docs.google.com/document/d/1aLNP7i8tM-BDhwivFIOox9VrCYLFe403hzpnVIgXCUI/edit?usp=sharing>`_.
 
 Galaxies is the most intuitive-based puzzle on the site.
 
