@@ -7,10 +7,9 @@ Rules
 (sourced from `puzzle-galaxies.com <https://www.puzzle-galaxies.com>`_)
 
 * You have to divide the grid into regions (galaxies) in such a way that:
-  1. Each region has exactly 1 white circle in it.
-  2. The circle is the center of its rotational symmetry. In other words: If you rotate the region around the circle at
-     180° you should get the same shape, position and orientation.
-  3. A region cannot be a neighbour to itself.
+   1. Each region has exactly 1 white circle in it.
+   2. The circle is the center of its rotational symmetry. In other words: If you rotate the region around the circle at 180° you should get the same shape, position and orientation.
+   3. A region cannot be a neighbour to itself.
 
 Options
 -------
