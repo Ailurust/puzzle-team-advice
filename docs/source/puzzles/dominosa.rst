@@ -67,8 +67,8 @@ Additionally, if an area has two one-tile-wide openings that can both be filled 
 and blocking both of these dominoes creates an area with an odd size, then that pair must be in one of those two spots,
 and any other instances of that pair can be blocked.
 
-Advanced Logic
---------------
+Duplicate Logic
+---------------
 
 Many puzzles have situations where placing one domino would eventually force another domino of that same pair, which isn't
 required for most puzzles, but when it is it usually only spans a few dominoes. Bifurication is acceptable in some of these
