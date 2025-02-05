@@ -36,3 +36,35 @@ Contents
    puzzles/boggle
    puzzles/chess
    puzzles/dominosa
+   puzzles/futoshiki
+   puzzles/galaxies
+   puzzles/hashi
+   puzzles/heyawake
+   puzzles/hitori
+   puzzles/jigsaw-sudoku
+   puzzles/kakarasu
+   puzzles/kakuro
+   puzzles/killer-sudoku
+   puzzles/light-up
+   puzzles/lits
+   puzzles/loop
+   puzzles/masyu
+   puzzles/minesweeper
+   puzzles/mosaic
+   puzzles/nonograms
+   puzzles/norinori
+   puzzles/nurikabe
+   puzzles/pipes
+   puzzles/renzoku
+   puzzles/shakashaka
+   puzzles/shikaku
+   puzzles/shingoki
+   puzzles/skyscrapers
+   puzzles/slant
+   puzzles/star-battle
+   puzzles/sudoku
+   puzzles/tapa
+   puzzles/tents
+   puzzles/thermometers
+   puzzles/wordsearch
+   puzzles/yin-yang
