@@ -27,18 +27,10 @@ Basic Logic
 *(this section is sourced from qqwref's doc, adapted by ailurus)*
 
 The easiest places to start solving a LITS puzzle are regions with less empty space, and thus fewer options for how their tetrominoes can be placed. 4-cell shapes can be filled immediately. Filling these shapes will sometimes restrict other regions to 4 cells as well.
-.. |ico1| image:: ../img/lits/lits1.png
-   :class: no-scaled-link
-.. |ico2| image:: ../img/lits/lits2.png
-   :class: no-scaled-link
 
 |ico1| |ico2|
 
 Within the small regions, there will be cells that must be shaded, since any tetromino configuration will use that cell. Another way to look at this is that placing an X in those cells will make it impossible to fit a tetromino in that region. The “no 2x2s” constraint is relevant here. If placing an X in a cell would force a 2x2 then you know that cell is shaded, and vice versa. 
-.. |ico5| image:: ../img/lits/lits5.png
-   :class: no-scaled-link
-.. |ico4| image:: ../img/lits/lits4.png
-   :class: no-scaled-link
 
 |ico4| |ico5|
 
@@ -74,3 +66,13 @@ Here’s an example of extending the pattern. The middle cell of that empty regi
 .. image:: ../img/lits/twobyx.png
 
 We can often extend this to any 2-by-X area, for example in this region, we cannot fit any tetrominoes between the two I pieces without creating a 2x2 shaded region. As a result, we know that the shaded cells will instead be to the left of the top I piece. 
+
+.. |ico1| image:: ../img/lits/lits1.png
+   :class: no-scaled-link
+.. |ico2| image:: ../img/lits/lits2.png
+   :class: no-scaled-link
+
+.. |ico5| image:: ../img/lits/lits5.png
+   :class: no-scaled-link
+.. |ico4| image:: ../img/lits/lits4.png
+   :class: no-scaled-link
