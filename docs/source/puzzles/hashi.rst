@@ -37,6 +37,7 @@ For example, any 8 will necessarily have two bridges in each direction. A 7 will
 direction. 
 
 |ico1| |ico2|
+
 In the case of the 7, all but one direction will have two bridges, but since we cannot know which in this scenario, we will
 place single bridges and come back to it once we have more information about the surrounding islands.
 
@@ -51,9 +52,11 @@ number of bridges will not be able to connect to any other islands. Bridges cann
 between islands.
 
 |ico5| |ico6|
+
 *Here, the 3 cannot take any more bridges, so the only option left for the 1 is a bridge to the left.*
 
 |ico7| |ico8|
+
 *Here, the 2 is blocked from connecting to the 3 above it by a bridge, leaving only one direction, meaning both required
 bridges will go left.*
 
@@ -73,6 +76,7 @@ of this pattern include adjacent 1s, which will never connect to each other, and
 to at most one of the 1s.
 
 |ico9| |ico10|
+
 *This is an example of the 1-2-1 pattern. If the 2 connects to both 1s, below and to the right, that group will be isolated.
 Thus, we know that the 2 must have at least one bridge going up (the left side is already blocked). In fact, we will have
 exactly one bridge going up, otherwise we will form an isolated group with the 2 above.*
@@ -86,6 +90,7 @@ connected, add a bridge there, and then work around the loop. If you find it har
 hold shift and mouse over the puzzle to highlight groups of islands.
 
 |ico12| |ico13| |ico14|
+
 *If the 3 in the bottom right here connects another bridge to the 2 below it, that group of islands will be unable to connect
 to the rest of the puzzle, as shown in the second image. Thus, the 3 must instead have it's last bridge going left.*
 
@@ -127,10 +132,10 @@ to the rest of the puzzle, as shown in the second image. Thus, the 3 must instea
 
 .. |ico12| image:: ../img/hashi/hashi12.png
    :class: no-scaled-link
-   :width: 45%
+   :width: 30%
 .. |ico13| image:: ../img/hashi/hashi13.png
    :class: no-scaled-link
-   :width: 45%
+   :width: 30%
 .. |ico14| image:: ../img/hashi/hashi14.png
    :class: no-scaled-link
-   :width: 45%
+   :width: 30%
