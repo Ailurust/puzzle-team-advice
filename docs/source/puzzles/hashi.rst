@@ -92,32 +92,45 @@ to the rest of the puzzle, as shown in the second image. Thus, the 3 must instea
 
 .. |ico1| image:: ../img/hashi/hashi2.png
    :class: no-scaled-link
+   :width: 45%
 .. |ico2| image:: ../img/hashi/hashi3.png
    :class: no-scaled-link
+   :width: 45%
 
 .. |ico3| image:: ../img/hashi/hashi4.png
    :class: no-scaled-link
+   :width: 45%
 .. |ico4| image:: ../img/hashi/hashi5.png
    :class: no-scaled-link
+   :width: 45%
 
 .. |ico5| image:: ../img/hashi/hashi6.png
    :class: no-scaled-link
+   :width: 45%
 .. |ico6| image:: ../img/hashi/hashi7.png
    :class: no-scaled-link
+   :width: 45%
 
 .. |ico7| image:: ../img/hashi/hashi8.png
    :class: no-scaled-link
+   :width: 45%
 .. |ico8| image:: ../img/hashi/hashi9.png
    :class: no-scaled-link
+   :width: 45%
 
 .. |ico9| image:: ../img/hashi/hashi10.png
    :class: no-scaled-link
+   :width: 45%
 .. |ico10| image:: ../img/hashi/hashi11.png
    :class: no-scaled-link
+   :width: 45%
 
 .. |ico12| image:: ../img/hashi/hashi12.png
    :class: no-scaled-link
+   :width: 45%
 .. |ico13| image:: ../img/hashi/hashi13.png
    :class: no-scaled-link
+   :width: 45%
 .. |ico14| image:: ../img/hashi/hashi14.png
    :class: no-scaled-link
+   :width: 45%

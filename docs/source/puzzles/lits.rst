@@ -69,10 +69,14 @@ We can often extend this to any 2-by-X area, for example in this region, we cann
 
 .. |ico1| image:: ../img/lits/lits1.png
    :class: no-scaled-link
+   :width: 45%
 .. |ico2| image:: ../img/lits/lits2.png
    :class: no-scaled-link
+   :width: 45%
 
 .. |ico5| image:: ../img/lits/lits5.png
    :class: no-scaled-link
+   :width: 45%
 .. |ico4| image:: ../img/lits/lits4.png
    :class: no-scaled-link
+   :width: 45%
