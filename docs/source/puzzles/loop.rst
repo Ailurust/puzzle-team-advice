@@ -42,9 +42,17 @@ can’t both be lines.
 To rephrase, a 1 will be surrounded by one line and three Xs. If the line connects to the dot shared with the 0, you will
 not be able to add the second line to that dot without overloading the 1. 
 
+A 2 has two lines, which are either in a = shape (one line exiting each corner) or an L shape (one line exiting two 
+opposite corners, no lines exiting the other two corners).
 
+A 3 has two corners with two lines each and two corners with one line each, so if a line is entering a 3 square, it must
+enter one of the corners with one line and therefore the opposite corner of the 3 has two lines.
+|ico4| |ico5|
 
-
+Alternatively, consider that a 3 will only have one open edge. If this open edge is not touching the corner with the
+existing edge, then you will end up with three lines on that dot. This means that one of the edges touching that corner
+must be open, and since we only have one open edge, the edges which don't touch that dot must have lines. Since we know
+that the other line on this dot will belong to the 3, the last available direction will be an X.
 
 .. |ico1| image:: ../img/loop/loop2.png
    :class: no-scaled-link
@@ -55,3 +63,10 @@ not be able to add the second line to that dot without overloading the 1.
 .. |ico3| image:: ../img/loop/loop4.png
    :class: no-scaled-link
    :width: 30%
+
+.. |ico5| image:: ../img/loop/loop7.png
+   :class: no-scaled-link
+   :width: 45%
+.. |ico4| image:: ../img/loop/loop6.png
+   :class: no-scaled-link
+   :width: 45%
