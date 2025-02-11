@@ -37,6 +37,7 @@ Three or four lines would result in a cross, and one line would cause a break in
 Each clue has a number of possible configurations. 1s and 3s have four each, while 2s have six. 0s only have one.
 .. image:: ../img/loop/loop9.png
 
+
 It is helpful to think of both the number of lines around a clue as well as the number of blank sides. Consider that a 
 3 will only have one open edge. If this open edge is not touching the corner with the existing edge, then you will end
 up with three lines on that dot. This means that one of the edges touching that corner must be open, and since we only
@@ -52,6 +53,7 @@ the opposite corner of the 3 has two lines.
 We can flip this idea around as well. Consider a 3 for which you have already deduced two lines forming a corner. What 
 can we say about the dot opposite this corner? We know that it will have one line belonging to the 3, which means that
 it will have one more line, which cannot belong to the 3. This brings us to a common pattern, diagonally adjacent 3s.
+
 |ico6| |ico7|
 
 It is helpful to think of the 3s here in the same way that we thought of the line in the previous example. Each 3 acts
@@ -60,6 +62,7 @@ as an incoming line to the other 3, meaning the opposite corners must be lines.
 
 A 1 will be surrounded by one line and three Xs. If the line connects to a dot shared with a 0, you will not be able to add
 the second line (remember, a dot must have either zero or two lines) to that dot without overloading the 1. 
+
 |ico1| |ico2| |ico3|
 
 To rephrase, a 1 has one line, but this also means that two of the corners will have two X’s each, so if for instance
