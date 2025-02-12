@@ -88,13 +88,13 @@ will have the opposite corner filled. A string of diagonal 2s will often fall in
 
 .. |ico1| image:: ../img/loop/loop2.png
    :class: no-scaled-link
-   :width: 30%
+   :width: 25%
 .. |ico2| image:: ../img/loop/loop3.png
    :class: no-scaled-link
-   :width: 30%
+   :width: 25%
 .. |ico3| image:: ../img/loop/loop4.png
    :class: no-scaled-link
-   :width: 30%
+   :width: 25%
 
 .. |ico5| image:: ../img/loop/loop7.png
    :class: no-scaled-link
