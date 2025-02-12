@@ -65,6 +65,15 @@ earlier.
 
 |ico8| |ico9|
 
+Because we know that the dot in between the 3 and 1 will have a single line entering from the 1, it will only have one
+line belonging to the 3, so it's gap will belong to that dot. 
+
+Another common 3 pattern, which is often helpful when beginning a solve, is orthogonally adjacent 3s. 
+
+|ico12| |ico11| |ico10|
+
+There are only two valid configurations, so we can mark the lines that appear in both, and add the final lines later.
+
 A 1 will be surrounded by one line and three Xs. If the line connects to a dot shared with a 0, you will not be able to add
 the second line (remember, a dot must have either zero or two lines) to that dot without overloading the 1. 
 
@@ -119,3 +128,13 @@ will have the opposite corner filled. A string of diagonal 2s will often fall in
 .. |ico9| image:: ../img/loop/loop16.png
    :class: no-scaled-link
    :width: 45%
+
+.. |ico10| image:: ../img/loop/loop18.png
+   :class: no-scaled-link
+   :width: 30%
+.. |ico11| image:: ../img/loop/loop19.png
+   :class: no-scaled-link
+   :width: 30%
+.. |ico12| image:: ../img/loop/loop20.png
+   :class: no-scaled-link
+   :width: 30%
