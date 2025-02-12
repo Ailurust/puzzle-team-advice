@@ -40,6 +40,9 @@ Each clue has a number of possible configurations. 1s and 3s have four each, whi
 .. image:: ../img/loop/loop9.png
 
 
+Threes
+^^^^^^^^
+
 It is helpful to think of both the number of lines around a clue as well as the number of blank sides. Consider that a 
 3 will only have one open edge. Consider a 3 with a line approaching from the bottom right corner. If the open edge of
 the 3 is not touching the corner with the existing edge, then you will end up with three lines on that dot. This means
@@ -75,6 +78,10 @@ Another common 3 pattern, which is often helpful when beginning a solve, is orth
 
 There are only two valid configurations, so we can mark the lines that appear in both, and add the final lines later.
 
+
+Ones
+^^^^^^^
+
 Let's return to the 0 and 1 we looked at earlier. A 1 will be surrounded by one line and three Xs. If the line connects
 to a dot shared with a 0, you will not be able to add the second line (remember, a dot must have either zero or two
 lines) to that dot without overloading the 1. 
@@ -85,7 +92,8 @@ To rephrase, a 1 has one line, but this also means that two of the corners will 
 a 1 is diagonally next to a 0, the two edges next to the 0 must be X’s because they can’t both be lines. 
 
 
-
+Twos
+^^^^^^^
 
 Finally, let's look at 2s. A 2 has two lines, which are either in a = shape (one line exiting each corner) or an L shape
 (one line exiting two opposite corners, no lines exiting the other two corners).
