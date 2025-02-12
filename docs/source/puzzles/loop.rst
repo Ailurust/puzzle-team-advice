@@ -41,10 +41,11 @@ Each clue has a number of possible configurations. 1s and 3s have four each, whi
 
 
 It is helpful to think of both the number of lines around a clue as well as the number of blank sides. Consider that a 
-3 will only have one open edge. If this open edge is not touching the corner with the existing edge, then you will end
-up with three lines on that dot. This means that one of the edges touching that corner must be open, and since we only
-have one open edge, the edges which don't touch that dot must have lines. Since we know that the other line on this dot
-will belong to the 3, the last available direction will be an X.
+3 will only have one open edge. Consider a 3 with a line approaching from the bottom right corner. If the open edge of
+the 3 is not touching the corner with the existing edge, then you will end up with three lines on that dot. This means
+that one of the edges touching that corner must be open, and since we only have one open edge, the edges which don't
+touch that dot must have lines. Since we know that the other line on this dot will belong to the 3, the last available
+direction will be an X.
 
 |ico4| |ico5|
 
@@ -60,8 +61,8 @@ it will have one more line, which cannot belong to the 3. This brings us to a co
 
 It is helpful to think of the 3s here in the same way that we thought of the line in the previous example. Each 3 acts
 as an incoming line to the other 3, meaning the opposite corners must be lines. We can use this kind of thinking with
-any configuration that results in a line "pointing at" or "entering" a 3. For example, let's extend the 1 we looked at
-earlier.
+any configuration that results in a line "pointing at" or "entering" a 3. For example, the 1 below cannot have a line
+connecting to the dot it shares with the 0, so we know that it's line will be on one of the two remaining sides.
 
 |ico8| |ico9|
 
@@ -74,9 +75,9 @@ Another common 3 pattern, which is often helpful when beginning a solve, is orth
 
 There are only two valid configurations, so we can mark the lines that appear in both, and add the final lines later.
 
-A 1 will be surrounded by one line and three Xs. If the line connects to a dot shared with a 0, you will not be able to add
-the second line (remember, a dot must have either zero or two lines) to that dot without overloading the 1. 
-
+Let's return to the 0 and 1 we looked at earlier. A 1 will be surrounded by one line and three Xs. If the line connects
+to a dot shared with a 0, you will not be able to add the second line (remember, a dot must have either zero or two
+lines) to that dot without overloading the 1. 
 
 |ico1| |ico2| |ico3|
 
