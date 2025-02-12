@@ -59,14 +59,17 @@ it will have one more line, which cannot belong to the 3. This brings us to a co
 |ico6| |ico7|
 
 It is helpful to think of the 3s here in the same way that we thought of the line in the previous example. Each 3 acts
-as an incoming line to the other 3, meaning the opposite corners must be lines.
+as an incoming line to the other 3, meaning the opposite corners must be lines. We can use this kind of thinking with
+any configuration that results in a line "pointing at" or "entering" a 3. For example, let's extend the 1 we looked at
+earlier.
 
+|ico8| |ico9|
 
 A 1 will be surrounded by one line and three Xs. If the line connects to a dot shared with a 0, you will not be able to add
 the second line (remember, a dot must have either zero or two lines) to that dot without overloading the 1. 
 
 
- |ico1| |ico2| |ico3|
+|ico1| |ico2| |ico3|
 
 To rephrase, a 1 has one line, but this also means that two of the corners will have two X’s each, so if for instance
 a 1 is diagonally next to a 0, the two edges next to the 0 must be X’s because they can’t both be lines. 
@@ -88,24 +91,31 @@ will have the opposite corner filled. A string of diagonal 2s will often fall in
 
 .. |ico1| image:: ../img/loop/loop2.png
    :class: no-scaled-link
-   :width: 25%
+   :width: 30%
 .. |ico2| image:: ../img/loop/loop3.png
    :class: no-scaled-link
-   :width: 25%
+   :width: 30%
 .. |ico3| image:: ../img/loop/loop4.png
    :class: no-scaled-link
-   :width: 25%
+   :width: 30%
 
 .. |ico5| image:: ../img/loop/loop7.png
    :class: no-scaled-link
-   :width: 45%
+   :width: 25%
 .. |ico4| image:: ../img/loop/loop6.png
    :class: no-scaled-link
-   :width: 45%
+   :width: 70%
 
 .. |ico6| image:: ../img/loop/loop13.png
    :class: no-scaled-link
    :width: 45%
 .. |ico7| image:: ../img/loop/loop14.png
+   :class: no-scaled-link
+   :width: 45%
+
+.. |ico8| image:: ../img/loop/loop15.png
+   :class: no-scaled-link
+   :width: 45%
+.. |ico9| image:: ../img/loop/loop16.png
    :class: no-scaled-link
    :width: 45%
