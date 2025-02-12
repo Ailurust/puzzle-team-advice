@@ -31,10 +31,12 @@ mean using as few X’s as possible.
 
 Because any line segment must be part of the single closed loop, we know that dots must have either zero or two lines.
 Three or four lines would result in a cross, and one line would cause a break in the loop. 
+
 .. image:: ../img/loop/loop1.png
 
 
 Each clue has a number of possible configurations. 1s and 3s have four each, while 2s have six. 0s only have one.
+
 .. image:: ../img/loop/loop9.png
 
 
@@ -63,7 +65,8 @@ as an incoming line to the other 3, meaning the opposite corners must be lines.
 A 1 will be surrounded by one line and three Xs. If the line connects to a dot shared with a 0, you will not be able to add
 the second line (remember, a dot must have either zero or two lines) to that dot without overloading the 1. 
 
-|ico1| |ico2| |ico3|
+
+ |ico1| |ico2| |ico3|
 
 To rephrase, a 1 has one line, but this also means that two of the corners will have two X’s each, so if for instance
 a 1 is diagonally next to a 0, the two edges next to the 0 must be X’s because they can’t both be lines. 
