@@ -81,6 +81,9 @@ have four each, while 2s have six. 0s only have one.
 
 Let's take a moment to try each possible 3 configuration in a corner, and see what we can learn. 
 
+
+
+
 |ico23| |ico24|
 
 
