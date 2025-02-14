@@ -19,8 +19,6 @@ Options
 * "Draw continuous line"
 * "Ghost lines mode" - *Visual change, blank spaces instead of Xs. This is up to preference.*
 
-Basic Logic
------------
 *(parts of this document are sourced from qqwref's doc)*
 
 Terminology
@@ -105,7 +103,10 @@ sort of "flip-flop" that we get from 2s has a wide range of uses, which we will 
 2s
 ----
 
-*UNDER CONSTRUCTION*
+.. note::
+
+   This section is under construction. See the
+   `Contributing page <https://puzzle-team-advice.readthedocs.io/en/latest/contributing.html>`_ to learn how to contribute.
 
 3s
 ---
