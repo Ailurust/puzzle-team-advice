@@ -81,14 +81,38 @@ have four each, while 2s have six. 0s only have one.
 
 Let's take a moment to try each possible 3 configuration in a corner, and see what we can learn. 
 
+|ico25| |ico26| |ico27| |ico28| |ico29|
+
+It is helpful to think of both the number of lines around a clue as well as the number of blank sides. Consider that a 
+3 will only have one open edge. In the first and second images, where the blank spaces are touching the corner dot, we
+end up with a line that has nowhere to go (a dot with only one line). This means that our blank side cannot be either
+side that touches that dot. As a result, we know that those sides will be lines. In fact, any time you see a 3 with one
+corner blocked like this, you can place these lines. 
+
+|ico30| |ico31| |ico32|
+
+As you might have guessed, a line entering a "corner" dot like this will have to exit on the same cell, forming an "L"
+shape. Let's try to apply this now to a 2 in a corner. Out of the 6 possible configurations for a 2, we can immediately
+rule out the parallel line options, since they would leave us with a line that has nowhere to go. Out of the remaining
+configurations, there are two valid options for a given corner cell, depending on it's location.
+
+|ico33| |ico34| |ico35|
+
+Although no lines from these cases overlap, we can still place some which we know must result from either layout. This
+sort of "flip-flop" that we get from 2s has a wide range of uses, which we will get into in the next section.
 
 
+2s
+----
+
+*UNDER CONSTRUCTION*
+
+3s
+---
 
 |ico23| |ico24|
 
-
-It is helpful to think of both the number of lines around a clue as well as the number of blank sides. Consider that a 
-3 will only have one open edge. If this open edge is not touching the corner with the existing edge, then you will end
+If this open edge is not touching the corner with the existing edge, then you will end
 up with three lines on that dot. This means that one of the edges touching that corner must be open, and since we only
 have one open edge, the edges which don't touch that dot must have lines. Since we know that the other line on this dot
 will belong to the 3, the last available direction will be an X.
@@ -121,6 +145,9 @@ Another common 3 pattern, which is often helpful when beginning a solve, is orth
 
 There are only two valid configurations, so we can mark the lines that appear in both, and add the final lines later.
 
+
+1s
+---
 A 1 will be surrounded by one line and three Xs. If the line connects to a dot shared with a 0, you will not be able to add
 the second line (remember, a dot must have either zero or two lines) to that dot without overloading the 1. 
 
@@ -128,17 +155,6 @@ the second line (remember, a dot must have either zero or two lines) to that dot
 
 To rephrase, a 1 has one line, but this also means that two of the corners will have two X’s each, so if for instance
 a 1 is diagonally next to a 0, the two edges next to the 0 must be X’s because they can’t both be lines. 
-
-
-
-
-Finally, let's look at 2s. A 2 has two lines, which are either in a = shape (one line exiting each corner) or an L shape
-(one line exiting two opposite corners, no lines exiting the other two corners).
-
-
-A common pattern you will encounter with 2s is the propagation of the L shape. When a 2 is diagonally next to a bend, it
-will have the opposite corner filled. A string of diagonal 2s will often fall into this pattern. 
-
 
 
 
@@ -225,3 +241,38 @@ will have the opposite corner filled. A string of diagonal 2s will often fall in
    :class: no-scaled-link
    :width: 45%
 
+.. |ico25| image:: ../img/loop/loop33.png
+   :class: no-scaled-link
+   :width: 18%
+.. |ico26| image:: ../img/loop/loop34.png
+   :class: no-scaled-link
+   :width: 18%
+.. |ico27| image:: ../img/loop/loop35.png
+   :class: no-scaled-link
+   :width: 18%
+.. |ico28| image:: ../img/loop/loop36.png
+   :class: no-scaled-link
+   :width: 18%
+.. |ico29| image:: ../img/loop/loop37.png
+   :class: no-scaled-link
+   :width: 18%
+
+.. |ico30| image:: ../img/loop/loop42.png
+   :class: no-scaled-link
+   :width: 30%
+.. |ico31| image:: ../img/loop/loop44.png
+   :class: no-scaled-link
+   :width: 30%
+.. |ico32| image:: ../img/loop/loop43.png
+   :class: no-scaled-link
+   :width: 30%
+
+.. |ico33| image:: ../img/loop/loop48.png
+   :class: no-scaled-link
+   :width: 30%
+.. |ico34| image:: ../img/loop/loop49.png
+   :class: no-scaled-link
+   :width: 30%
+.. |ico35| image:: ../img/loop/loop50.png
+   :class: no-scaled-link
+   :width: 30%
