@@ -85,6 +85,7 @@ Which cascades:
 Which solves the puzzle.
 
 All in all:
+
 * Any tile with 3 known edges can be solved
 * Ts can be solved with 1 empty edge
 * Bulbs can be solved with 1 filled edge
@@ -134,6 +135,7 @@ Which pins the Ts next to it.
 |loop7by7step4|
 
 This type of loop with 2 pinned Ts, called the square, is quite common. But loops can come in many different shapes and sizes.
+
 As a side note, the "no loops" rule can technically be deduced from the fact that you can't waste any half-edges.
 
 Various Patterns
