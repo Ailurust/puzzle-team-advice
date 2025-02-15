@@ -28,10 +28,10 @@ Options
 * The "Squares" style can be helpful for spotting patterns.
 * Setting a different default background color also helps.
 
+*(adapted from qqwref, with additional info by beatrixwashere)*
+
 Basic Logic
 -----------
-
-*(this and the next section of this page is sourced from qqwref's doc)*
 
 The basic logic is pretty easy. If you see two squares of the same color and a blank square on either side,
 fill in the blank square with the other color. If you see two squares of the same color separated by a 1-tile blank gap,
@@ -40,10 +40,30 @@ with blank; if it’s 0 | X, fill them in with white. The hard part is getting u
 importantly seeing every single deduction like this, because sometimes puzzles will have no way forward except for one
 specific bit of logic.
 
+.. image:: ../img/binairo/givenrow_empty.png
+
+*intial state of a row with one color left*
+
+.. image:: ../img/binairo/givenrow_filled.png
+
+*filled state of the row*
+
 Unfortunately, on both easy and hard puzzles, the “Each row and column is unique” rule comes into play, and is often
 required, because without that rule there are multiple solutions. I’m not sure how to check for this quickly, but one tip
 is that it almost always involves a solved row/column and one with either 2 or 3 tiles unsolved, so that should help narrow
 it down when it seems required. This is more common on smaller puzzles, so 14x14 rarely has it and 20x20 almost never does.
+
+.. image:: ../img/binairo/duplicate_start.png
+
+*intial state of duplicate step*
+
+.. image:: ../img/binairo/duplicate_wrong.png
+
+*columns c and f are the same*
+
+.. image:: ../img/binairo/duplicate_right.png
+
+*columns c and f are unique*
 
 There are a handful of patterns that show up and let you solve a lot of squares at once, like a 2x2 square of the same
 color, but you’ll learn those as you go, and the logic is all pretty straightforward so there’s no point listing them out.
@@ -52,11 +72,19 @@ Advanced Logic
 --------------
 
 On hard puzzles, there is some more complex logic based on the counters. This logic almost always occurs on rows
-or columns that have only 1 or 2 remaining of one of the colors. This is a little hard to explain so I’ll do what I can.
-A gap of 2 tiles with a black on one end and a white on the other end must be filled with one black and one white tile.
-A gap of 2 tiles with blacks on both ends (or a black on one end and the puzzle edge on the other end) needs at least 1
-white, and the same with colors reversed. A gap of 3 tiles needs at least 1 white and 1 black. That should either use up
-all white or all black tiles in the row/column, which means you can fill in all the other empty squares.
+or columns that have only 1 or 2 remaining of one of the colors. A gap of 2 tiles with a black on one end and a white on
+the other end must be filled with one black and one white tile. A gap of 2 tiles with blacks on both ends (or a black on
+one end and the puzzle edge on the other end) needs at least 1 white, and the same with colors reversed. A gap of 3 tiles
+needs at least 1 white and 1 black. That should either use up all white or all black tiles in the row/column, which means
+you can fill in all the other empty squares.
+
+.. image:: ../img/binairo/counting_start.png
+
+*initial state of counting step*
+
+.. image:: ../img/binairo/counting_end.png
+
+*a white cell must be on the first column, since a black cell in the same position would force whites in the others, creating three in a row*
 
 If you can’t do that, but can figure out exactly which tiles go in each gap, there is some further logic you can use.
 Some gaps can be filled in in only one way given a certain set of available colors. These are all also true with the
@@ -80,19 +108,22 @@ logic that might not be immediately obvious is that a = next to a filled cell in
 color on both ends, since it would otherwise form three of the same color in a row. Finding deductions like these quickly
 is very important to speedsolving.
 
-It's also common for chains of x's or ='s to appear, which can be especially rewarding. If you find a chain of x's, simply
-alternate between colors until you reach the end. = chains are usually in the same row/column, and the same alternating
+It's also relatively common for chains of x's or ='s to appear, which can be especially rewarding. If you find a chain of x's,
+simply alternate between colors until you reach the end. = chains are usually in the same row/column, and the same alternating
 logic applies except with pairs of two of the same color rather than alternating one by one.
 
 The same counter logic from normal Binairo also applies here, with the comparisons adding some further depth on where
-certain colors are forced. Here's one example (rotated to fit the page better, counter is 1 black left and 3 white left):
+certain colors are forced. Specifically, an x comparison in a row/column takes up one of each color, and a = comparison uses
+two of a color. Additionally, odd numbered chains of of x comparisons (ex: three cells in a row with x's between them) contain
+one more of a color than the other. These can be subtracted from the total count of cells and colors remaining, and can sometimes
+give a needed deduction on hard difficulties. For example, if there are 4 black cells and 1 white cell remaining in a row, and
+there is an x comparison in the same row, then there are 3 black cells and 0 white cells apart from the comparison, meaning the
+rest can be filled white.
+
+Here's another example (rotated to fit the page better, counter is 1 black left and 3 white left):
 
 .. image:: ../img/binairo/plus/xforce.png
 
 Trying to apply the original counter logic doesn't help in this scenario, but since the x comparison requires one black cell
 and one white cell, the empty cells outside of it can be colored white, since there will be 2 whites left regardless of how
-the black and white in the x is placed. There are also some other cases of counter logic that have to do with multiple of
-these comparisons in the same row/column. One example with x's is when a counter reads N | X (and vice versa) with a chain
-of 2N cells being connected by x's, and the rest can be filled with the X color greater on the counter. On the other hand,
-one example with ='s is that when a counter reads N | N+X (and vice versa), and every cell in the row/column is part of an
-= comparison apart from X cells (usually this is one or two), the spare cells can be filled with the greater color.
+the black and white in the x is placed.
