@@ -24,6 +24,7 @@ Contents
 
    getting-started
    contributing
+   statistics
 
 .. toctree::
    :hidden:
