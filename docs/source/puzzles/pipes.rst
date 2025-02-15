@@ -136,57 +136,57 @@ Lines and turns can connect multiple edges horizontally or vertically. In small 
 * If there are an even number of turns and the piece is a bulb, the edges are parallel to the row/column, and empty.
 * If there are an odd number of turns and the piece is a bulb, the edges are perpendicular to the row/column, and empty.
 
-.. |tilenames| img:: ../img/pipes/tilenames.png
+.. |tilenames| image:: ../img/pipes/tilenames.png
    :class: no-scaled-link
-.. |7by7step0| img:: ../img/pipes/7by7step0.png
+.. |7by7step0| image:: ../img/pipes/7by7step0.png
    :class: no-scaled-link
-.. |7by7step1| img:: ../img/pipes/7by7step1.png
+.. |7by7step1| image:: ../img/pipes/7by7step1.png
    :class: no-scaled-link
-.. |7by7step2| img:: ../img/pipes/7by7step2.png
+.. |7by7step2| image:: ../img/pipes/7by7step2.png
    :class: no-scaled-link
-.. |7by7step3| img:: ../img/pipes/7by7step3.png
+.. |7by7step3| image:: ../img/pipes/7by7step3.png
    :class: no-scaled-link
-.. |7by7step4| img:: ../img/pipes/7by7step4.png
+.. |7by7step4| image:: ../img/pipes/7by7step4.png
    :class: no-scaled-link
-.. |7by7step5| img:: ../img/pipes/7by7step5.png
+.. |7by7step5| image:: ../img/pipes/7by7step5.png
    :class: no-scaled-link
-.. |7by7step6| img:: ../img/pipes/7by7step6.png
+.. |7by7step6| image:: ../img/pipes/7by7step6.png
    :class: no-scaled-link
-.. |7by7step7| img:: ../img/pipes/7by7step7.png
+.. |7by7step7| image:: ../img/pipes/7by7step7.png
    :class: no-scaled-link
-.. |7by7step8| img:: ../img/pipes/7by7step8.png
+.. |7by7step8| image:: ../img/pipes/7by7step8.png
    :class: no-scaled-link
-.. |7by7step9| img:: ../img/pipes/7by7step9.png
+.. |7by7step9| image:: ../img/pipes/7by7step9.png
    :class: no-scaled-link
-.. |7by7step10| img:: ../img/pipes/7by7step10.png
+.. |7by7step10| image:: ../img/pipes/7by7step10.png
    :class: no-scaled-link
-.. |7by7step11| img:: ../img/pipes/7by7step11.png
+.. |7by7step11| image:: ../img/pipes/7by7step11.png
    :class: no-scaled-link
-.. |hard7by7step1| img:: ../img/pipes/hard7by7step1.png
+.. |hard7by7step1| image:: ../img/pipes/hard7by7step1.png
    :class: no-scaled-link
-.. |hard7by7step2| img:: ../img/pipes/hard7by7step2.png
+.. |hard7by7step2| image:: ../img/pipes/hard7by7step2.png
    :class: no-scaled-link
-.. |hard7by7step3| img:: ../img/pipes/hard7by7step3.png
+.. |hard7by7step3| image:: ../img/pipes/hard7by7step3.png
    :class: no-scaled-link
-.. |hard7by7step4| img:: ../img/pipes/hard7by7step4.png
+.. |hard7by7step4| image:: ../img/pipes/hard7by7step4.png
    :class: no-scaled-link
-.. |loop7by7step1| img:: ../img/pipes/loop7by7step1.png
+.. |loop7by7step1| image:: ../img/pipes/loop7by7step1.png
    :class: no-scaled-link
-.. |loop7by7step2| img:: ../img/pipes/loop7by7step2.png
+.. |loop7by7step2| image:: ../img/pipes/loop7by7step2.png
    :class: no-scaled-link
-.. |loop7by7step3| img:: ../img/pipes/loop7by7step3.png
+.. |loop7by7step3| image:: ../img/pipes/loop7by7step3.png
    :class: no-scaled-link
-.. |loop7by7step4| img:: ../img/pipes/loop7by7step4.png
+.. |loop7by7step4| image:: ../img/pipes/loop7by7step4.png
    :class: no-scaled-link
-.. |flowerpatch| img:: ../img/pipes/flowerpatch.png
+.. |flowerpatch| image:: ../img/pipes/flowerpatch.png
    :class: no-scaled-link
-.. |garden| img:: ../img/pipes/garden.png
+.. |garden| image:: ../img/pipes/garden.png
    :class: no-scaled-link
-.. |barbell| img:: ../img/pipes/barbell.png
+.. |barbell| image:: ../img/pipes/barbell.png
    :class: no-scaled-link
-.. |cornerloop| img:: ../img/pipes/cornerloop.png
+.. |cornerloop| image:: ../img/pipes/cornerloop.png
    :class: no-scaled-link
-.. |2by2| img:: ../img/pipes/2by2.png
+.. |2by2| image:: ../img/pipes/2by2.png
    :class: no-scaled-link
-.. |parityexample| img:: ../img/pipes/parityexample.png
+.. |parityexample| image:: ../img/pipes/parityexample.png
    :class: no-scaled-link
