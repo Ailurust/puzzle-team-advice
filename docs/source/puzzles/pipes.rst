@@ -5,6 +5,7 @@ Rules
 -----
 
 (sourced from `puzzle-pipes.com <https://www.puzzle-pipes.com>`_)
+
 * The goal is to rotate the tiles on the grid so all pipes are connected in a single group.
 * Closed loops are not allowed.
 
