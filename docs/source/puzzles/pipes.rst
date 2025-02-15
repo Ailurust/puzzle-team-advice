@@ -53,13 +53,13 @@ T and line tiles with an empty edge (in this case the edge of the board) are uni
 
 |7by7step1|
 
-Although I've used all the empty edges on the border I can, the tiles I've solved give me more known edges. Since half-edges have to match, the edges of tiles I've solved transfer over to neighboring tiles.
+Although I've used all the empty edges on the border I can, the tiles I've solved give me more known edges. Since half-edges have to match, the edges of tiles I've solved transfer over to neighboring tiles. For example, the solved line on the top gives a filled edge to the left, a filled edge to the right, and an empty edge downwards.
 
 I like to finish the border before going deeper into the center when I can. Bulb and line tiles with a filled edge are uniquely determined because they only have one orientation where the half-edges match. 
 
 |7by7step2|
 
-Turns are weirder to solve than the other tiles. If you look at all 4 ways to rotate a turn, whenever there's a filled edge on one side of it, there's an empty edge on the opposite side, but the other axis could flip either rway. So one edge won't do, you need 2 edges on different axes to fully solve it. This happens whenever the turn is in a corner (you can imagine the border to be all gray so that it looks like a corner).
+Turns are weirder to solve than the other tiles. If you look at all 4 ways to rotate a turn, whenever there's a filled edge on one side of it, there's an empty edge on the opposite side, but the other axis could flip either way. So one edge won't do, you need 2 edges on different axes to fully solve it. This happens whenever the turn is in a corner (you can imagine the border to be all gray so that it looks like a corner).
 
 |7by7step3|
 
@@ -178,6 +178,7 @@ This arrangement of tiles guarantees 6 edges. There are variations on it, but th
 |parityexample|
 
 Lines and turns can connect multiple edges horizontally or vertically. In small wrap sizes, they sometimes connect one edge of a tile to the opposite edge of that tile by wrapping around the entire board. If that tile is a T or a bulb, you can solve for 2 edges on it.
+
 * If there are an even number of turns and the piece is a T, the edges are parallel to the row/column, and filled.
 * If there are an odd number of turns and the piece is a T, the edges are perpendicular to the row/column, and filled.
 * If there are an even number of turns and the piece is a bulb, the edges are parallel to the row/column, and empty.
