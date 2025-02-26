@@ -99,6 +99,7 @@ configurations, there are two valid options for a given corner cell, depending o
 Although no lines from these cases overlap, we can still place some which we know must result from either layout. This
 sort of "flip-flop" that we get from 2s has a wide range of uses, which we will get into in the next section.
 
+With these basic patterns under your belt, you should be able to complete this `example puzzle <https://swaroopg92.github.io/penpa-edit/#m=solve&p=vZRNb6M8EMfvfArksw8EQptyy9NN9tKn+9ZVVVkocojboJiQNbCNiNLP3pkhWWqg0u5hVw6j4Yc9Hnvmn+JHJY3iIYxgwj0+guH7E3rGHv7O4y4ttYpctZfZTitX5/nOHfFpVa5zE7ky1ZWpCs4TLYsiTdxCp+VaGZ1uN66ptCr4p/mcP0pdKEecYsaOYD7jbASPz+KXevYi8CWInUP9NTrUi0jER15/b91J636LDmBvowPzRywSzGOQOyyPIZjfBQECCP0LjBEELQg8BJDNGYQ9cNFZEl52goaTzrbhlQUg3REl/UB2TtYnewdn4nVA9gNZj2xI9obmzMjek70mOyZ7QXMu8VYcR/hNEXGEv+dBGeDCWZHrRVGZR5koFlGhOLFtlS2VsRAWHyprz0uftrlRg58QqtUTwNJU1vRlblYYvOXPUmtrcdOiFkpSk2gblSa13qUx+bNFMlmuLbCUJbR0sU53diS1Le0ESmkfX25kZ7esPfHRYXtGjwjgdsfYy1dRPeX1x6afzu3O6y/QzP9H9Qx7WTDoEio1tZQP7qx17+k7etenlvPAvz354D6A29zK4qYhnyNR33GG+/xHq9FlWf4TEqVl9J7k2RKOItiby2i+FNUq31TnDsfenb6fbtCmi26TLnp/K13spv1QplfxsamA90f/If9AmvuTxnIzKDPAA0oDOqioE29EZfOegHDDvoaADsgIaFdJgPpiAtjTE7B3JIVRu6rCrLrCwq162sKt3spLxM4r&a=NZDNDcYwCEN3yTmHGL6fZpaq+69ROxgpEi8uvIje9zN1BtaaWJgY07zNzMD74Q85zV8y74fZi6tYvbBHFWFm7VnNRTPn4m+mJ/zWYTuVhZ2qYadqdk5fdk5f/sx0pP3q7R59d765ilYr3DWooh1H/SCd5wU=>`_.
 
 2s
 ----
