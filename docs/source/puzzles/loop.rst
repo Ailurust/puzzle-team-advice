@@ -103,6 +103,32 @@ sort of "flip-flop" that we get from 2s has a wide range of uses, which we will 
 2s
 ----
 
+In any of the possible 2 configurations, you will end up with lines exiting on two opposite corners. What this means to
+us is that when we have a line that definitely enters a 2, we know that the 2 will have a line exiting on the opposite
+corner. If it didn't, you would end up with either too many or too few lines on the cell. In the image below, we can see
+that the green dot has exactly one line entering it from the partially completed 2. As a result, there will be exactly
+one line exiting from the blue dot.
+
+|ico36| |ico37|
+
+|ico38| |ico39|
+
+If we tried the configurations that would not result in a line exiting the blue dot, we can see that either option will
+break the top 2. It would either be forced to have too many lines (since otherwise we have a dead end), or have no space
+for it's second line. We will revisit this later, but this knowledge lets us place two Xs on the diagonally adjacent 1.
+
+|ico40|
+
+What you may have noticed in the above image is that we could make the same deduction about the 1 if it had been directly
+next to the first 2. As it turns out, diagonally adjacent 2s essentially propagate their corners through to the end of 
+the chain. We could have any number of 2s between the initial 2 and the 1, and we would still be able to place those Xs!
+
+A common instance of this type of propagation is an L-shaped corner pointing at a chain of 2s.
+
+|ico41| |ico42|
+
+
+
 .. note::
 
    This section is under construction. See the
@@ -277,3 +303,27 @@ a 1 is diagonally next to a 0, the two edges next to the 0 must be X’s because
 .. |ico35| image:: ../img/loop/loop50.png
    :class: no-scaled-link
    :width: 30%
+
+.. |ico36| image:: ../img/loop/loop51.png
+   :class: no-scaled-link
+   :width: 45%
+.. |ico37| image:: ../img/loop/loop52.png
+   :class: no-scaled-link
+   :width: 45%
+
+.. |ico38| image:: ../img/loop/loop53.png
+   :class: no-scaled-link
+   :width: 45%
+.. |ico39| image:: ../img/loop/loop54.png
+   :class: no-scaled-link
+   :width: 45%
+
+.. |ico40| image:: ../img/loop/loop55.png
+   :class: no-scaled-link
+
+.. |ico41| image:: ../img/loop/loop56.png
+   :class: no-scaled-link
+   :width: 45%
+.. |ico42| image:: ../img/loop/loop57.png
+   :class: no-scaled-link
+   :width: 45%
