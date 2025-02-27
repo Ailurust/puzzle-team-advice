@@ -152,17 +152,6 @@ valid configurations.
 |ico56| |ico57| |ico58| |ico59|
 
 
-1s
----
-A 1 will be surrounded by one line and three Xs. If the line connects to a dot shared with a 0, you will not be able to add
-the second line (remember, a dot must have either zero or two lines) to that dot without overloading the 1. 
-
-|ico1| |ico2| |ico3|
-
-To rephrase, a 1 has one line, but this also means that two of the corners will have two X’s each, so if for instance
-a 1 is diagonally next to a 0, the two edges next to the 0 must be X’s because they can’t both be lines. 
-
-
 2s
 ----
 
@@ -191,6 +180,15 @@ A common instance of this type of propagation is an L-shaped corner pointing at 
 |ico41| |ico42|
 
 
+1s
+---
+A 1 will be surrounded by one line and three Xs. If the line connects to a dot shared with a 0, you will not be able to add
+the second line (remember, a dot must have either zero or two lines) to that dot without overloading the 1. 
+
+|ico1| |ico2| |ico3|
+
+To rephrase, a 1 has one line, but this also means that two of the corners will have two X’s each, so if for instance
+a 1 is diagonally next to a 0, the two edges next to the 0 must be X’s because they can’t both be lines. 
 
 .. note::
 
