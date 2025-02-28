@@ -227,16 +227,16 @@ a 1 is diagonally next to a 0, the two edges next to the 0 must be X’s because
    :class: no-scaled-link
    :width: 45%
 
-.. |ico19| image:: ../img/loop/loop27.png
+.. |ico19| image:: ../img/loop/loop75.png
    :class: no-scaled-link
    :width: 22%
-.. |ico20| image:: ../img/loop/loop28.png
+.. |ico20| image:: ../img/loop/loop76.png
    :class: no-scaled-link
    :width: 22%
-.. |ico21| image:: ../img/loop/loop29.png
+.. |ico21| image:: ../img/loop/loop77.png
    :class: no-scaled-link
    :width: 22%
-.. |ico22| image:: ../img/loop/loop30.png
+.. |ico22| image:: ../img/loop/loop78.png
    :class: no-scaled-link
    :width: 22%
 
