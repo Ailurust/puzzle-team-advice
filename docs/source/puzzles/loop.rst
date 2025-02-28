@@ -215,10 +215,10 @@ a 1 is diagonally next to a 0, the two edges next to the 0 must be X’s because
 
 .. |ico15| image:: ../img/loop/loop23.png
    :class: no-scaled-link
-   :width: 45%
+   :width: 50%
 .. |ico16| image:: ../img/loop/loop24.png
    :class: no-scaled-link
-   :width: 45%
+   :width: 40%
 
 .. |ico17| image:: ../img/loop/loop25.png
    :class: no-scaled-link
