@@ -207,6 +207,7 @@ can just keep in mind that we will have a line pointing out from that 1, similar
 |ico65| |ico66|
 
 
+
 Advanced
 ---------
 
@@ -230,6 +231,13 @@ adjacent to one of these 2s feels very similar to two diagonal 3s.
 
 Both numbers have exactly one gap left to decide on. If either number had two lines on the shared dot, it would cause the other
 number to have two gaps on that dot, more than is allowed. 
+
+As with diagonally adjacent 3s, 2s of this kind will need to have one line entering/exiting a shared dot. In the example below,
+we have three of these chained together. Since the middle 2 will need to take exactly one line from each shared dot, we know that
+it's lines will be to the right and left. If we had placed a line on the bottom of that 2, it would have to enter the diagonally
+adjacent 2s, so we would be unable to place our second line.
+
+|ico85| |ico86| |ico87|
 
 
 Here are a few common 3 patterns that can cause loops. 
@@ -478,3 +486,13 @@ Here are a few common 3 patterns that can cause loops.
 .. |ico84| image:: ../img/loop/loop104.png
    :class: no-scaled-link
    :width: 18%
+
+.. |ico85| image:: ../img/loop/loop105.png
+   :class: no-scaled-link
+   :width: 30%
+.. |ico86| image:: ../img/loop/loop106.png
+   :class: no-scaled-link
+   :width: 30%
+.. |ico87| image:: ../img/loop/loop107.png
+   :class: no-scaled-link
+   :width: 30%
