@@ -182,6 +182,7 @@ A common instance of this type of propagation is an L-shaped corner pointing at 
 
 1s
 ---
+
 Starting again with a single line entering the cell, 1s are pretty straightforward. Since only one edge will be filled, we 
 know that this edge is sharing a dot with our incoming line. That means we can place Xs on the other two edges. 
 
@@ -197,6 +198,31 @@ Our line will need to exit from this corner, so if we only have one way for that
 can just keep in mind that we will have a line pointing out from that 1, similar to a 2 with a line entering the other corner.
 
 |ico65| |ico66|
+
+
+Advanced
+---------
+
+The above sections should hopefully be enough for you to eventually arrive at the next patterns on your own, and I encourage you
+to play a bit and see what you can discover on your own. That being said, here are some more involved patterns that result from 
+some of what we talked about in the previous sections. I'll be using examples found in the wild this time, so don't worry too 
+much about the extra numbers or markings, just focus on the conditions of the pattern in question.
+
+
+Consider a 2 with one decided blank side. The key thing to notice about this configuration is that we cannot have a corner
+pointing inwards towards either the green or blue dot. If we do, we eliminate two other edges, leaving us with only 1 spot to 
+place a line. In the below example, that means that the line entering the green dot must belong to the 2. Since we can only have
+the one edge coming from green, our remaining edge for the 2 is the bottom, connected to the blue dot.
+
+|ico67| |ico68| |ico69| |ico70|
+
+It can be helpful to think of these 2s as being similar to 3s, since we can't point corners at them. For example, a 3 diagonally
+adjacent to one of these 2s feels very similar to two diagonal 3s. 
+
+|ico71| |ico72| |ico73| |ico74|
+
+Both numbers have exactly one gap left to decide on. If either number had two lines on the shared dot, it would cause the other
+number to have two gaps on that dot, more than is allowed. 
 
 .. note::
 
@@ -385,3 +411,29 @@ can just keep in mind that we will have a line pointing out from that 1, similar
 .. |ico66| image:: ../img/loop/loop85.png
    :class: no-scaled-link
    :width: 45%
+
+.. |ico67| image:: ../img/loop/loop86.png
+   :class: no-scaled-link
+   :width: 18%
+.. |ico68| image:: ../img/loop/loop87.png
+   :class: no-scaled-link
+   :width: 18%
+.. |ico69| image:: ../img/loop/loop88.png
+   :class: no-scaled-link
+   :width: 18%
+.. |ico70| image:: ../img/loop/loop89.png
+   :class: no-scaled-link
+   :width: 18%
+
+.. |ico71| image:: ../img/loop/loop90.png
+   :class: no-scaled-link
+   :width: 18%
+.. |ico72| image:: ../img/loop/loop92.png
+   :class: no-scaled-link
+   :width: 18%
+.. |ico73| image:: ../img/loop/loop94.png
+   :class: no-scaled-link
+   :width: 18%
+.. |ico74| image:: ../img/loop/loop91.png
+   :class: no-scaled-link
+   :width: 18%
