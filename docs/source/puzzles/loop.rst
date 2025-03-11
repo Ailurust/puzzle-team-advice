@@ -179,6 +179,13 @@ A common instance of this type of propagation is an L-shaped corner pointing at 
 
 |ico41| |ico42|
 
+Since a corner pointing towards a 2 will force the opposite corner to have both lines, we know that we can't have any lines
+entering on that opposite corner. Together with the reverse case, where a line entering a 2 means the opposite corner will 
+have a line exiting (and thus can't be corner pointing at the 2), we can make a new deduction. If two opposite corners of a
+2 both have lines which may possibly enter the 2, those lines will definitely enter the 2.
+
+|ico81| |ico82| |ico83| |ico84|
+
 
 1s
 ---
@@ -224,6 +231,14 @@ adjacent to one of these 2s feels very similar to two diagonal 3s.
 Both numbers have exactly one gap left to decide on. If either number had two lines on the shared dot, it would cause the other
 number to have two gaps on that dot, more than is allowed. 
 
+
+Here are a few common 3 patterns that can cause loops. 
+
+|ico75| |ico76| |ico77|
+|ico78| |ico79| |ico80|
+
+
+
 .. note::
 
    This section is under construction. See the
@@ -264,13 +279,6 @@ number to have two gaps on that dot, more than is allowed.
 .. |ico22| image:: ../img/loop/loop78.png
    :class: no-scaled-link
    :width: 22%
-
-.. |ico23| image:: ../img/loop/loop31.png
-   :class: no-scaled-link
-   :width: 45%
-.. |ico24| image:: ../img/loop/loop32.png
-   :class: no-scaled-link
-   :width: 45%
 
 .. |ico25| image:: ../img/loop/loop33.png
    :class: no-scaled-link
@@ -435,5 +443,38 @@ number to have two gaps on that dot, more than is allowed.
    :class: no-scaled-link
    :width: 18%
 .. |ico74| image:: ../img/loop/loop91.png
+   :class: no-scaled-link
+   :width: 18%
+
+.. |ico75| image:: ../img/loop/loop95.png
+   :class: no-scaled-link
+   :width: 30%
+.. |ico76| image:: ../img/loop/loop96.png
+   :class: no-scaled-link
+   :width: 30%
+.. |ico77| image:: ../img/loop/loop97.png
+   :class: no-scaled-link
+   :width: 30%
+
+.. |ico78| image:: ../img/loop/loop98.png
+   :class: no-scaled-link
+   :width: 30%
+.. |ico79| image:: ../img/loop/loop99.png
+   :class: no-scaled-link
+   :width: 30%
+.. |ico80| image:: ../img/loop/loop100.png
+   :class: no-scaled-link
+   :width: 30%
+
+.. |ico81| image:: ../img/loop/loop101.png
+   :class: no-scaled-link
+   :width: 18%
+.. |ico82| image:: ../img/loop/loop102.png
+   :class: no-scaled-link
+   :width: 18%
+.. |ico83| image:: ../img/loop/loop103.png
+   :class: no-scaled-link
+   :width: 18%
+.. |ico84| image:: ../img/loop/loop104.png
    :class: no-scaled-link
    :width: 18%
