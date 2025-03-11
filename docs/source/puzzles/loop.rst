@@ -243,6 +243,7 @@ adjacent 2s, so we would be unable to place our second line.
 Here are a few common 3 patterns that can cause loops. 
 
 |ico75| |ico76| |ico77|
+
 |ico78| |ico79| |ico80|
 
 
@@ -360,16 +361,16 @@ Here are a few common 3 patterns that can cause loops.
 
 .. |ico46| image:: ../img/loop/loop61.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 .. |ico47| image:: ../img/loop/loop62.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 .. |ico48| image:: ../img/loop/loop63.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 .. |ico49| image:: ../img/loop/loop64.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 
 .. |ico50| image:: ../img/loop/loop65.png
    :class: no-scaled-link
@@ -393,16 +394,16 @@ Here are a few common 3 patterns that can cause loops.
 
 .. |ico56| image:: ../img/loop/loop71.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 .. |ico57| image:: ../img/loop/loop72.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 .. |ico58| image:: ../img/loop/loop73.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 .. |ico59| image:: ../img/loop/loop74.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 
 .. |ico60| image:: ../img/loop/loop79.png
    :class: no-scaled-link
@@ -430,29 +431,29 @@ Here are a few common 3 patterns that can cause loops.
 
 .. |ico67| image:: ../img/loop/loop86.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 .. |ico68| image:: ../img/loop/loop87.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 .. |ico69| image:: ../img/loop/loop88.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 .. |ico70| image:: ../img/loop/loop89.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 
 .. |ico71| image:: ../img/loop/loop90.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 .. |ico72| image:: ../img/loop/loop92.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 .. |ico73| image:: ../img/loop/loop94.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 .. |ico74| image:: ../img/loop/loop91.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 
 .. |ico75| image:: ../img/loop/loop95.png
    :class: no-scaled-link
@@ -476,16 +477,16 @@ Here are a few common 3 patterns that can cause loops.
 
 .. |ico81| image:: ../img/loop/loop101.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 .. |ico82| image:: ../img/loop/loop102.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 .. |ico83| image:: ../img/loop/loop103.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 .. |ico84| image:: ../img/loop/loop104.png
    :class: no-scaled-link
-   :width: 18%
+   :width: 20%
 
 .. |ico85| image:: ../img/loop/loop105.png
    :class: no-scaled-link
