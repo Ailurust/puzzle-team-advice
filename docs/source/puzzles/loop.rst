@@ -155,10 +155,10 @@ valid configurations.
 2s
 ----
 
-In any of the possible 2 configurations, you will end up with lines exiting on two opposite corners. What this means to
-us is that when we have a line that definitely enters a 2, we know that the 2 will have a line exiting on the opposite
-corner. If it didn't, you would end up with either too many or too few lines on the cell. In the image below, we can see
-that the green dot has exactly one line entering it from the partially completed 2. As a result, there will be exactly
+Let's start again by looking at a single line entering our clue cell. In general, any of the possible 2 configurations end up with lines
+exiting on two opposite corners. What this means to us is that when we have a line that definitely enters a 2, we know that the 2 will 
+have a line exiting on the opposite corner. If it didn't, you would end up with either too many or too few lines on the cell. In the image
+below, we can see that the green dot has exactly one line entering it from the partially completed 2. As a result, there will be exactly
 one line exiting from the blue dot.
 
 |ico36| |ico37|
@@ -182,13 +182,21 @@ A common instance of this type of propagation is an L-shaped corner pointing at 
 
 1s
 ---
-A 1 will be surrounded by one line and three Xs. If the line connects to a dot shared with a 0, you will not be able to add
-the second line (remember, a dot must have either zero or two lines) to that dot without overloading the 1. 
+Starting again with a single line entering the cell, 1s are pretty straightforward. Since only one edge will be filled, we 
+know that this edge is sharing a dot with our incoming line. That means we can place Xs on the other two edges. 
 
-|ico1| |ico2| |ico3|
+|ico60| |ico61|
 
-To rephrase, a 1 has one line, but this also means that two of the corners will have two X’s each, so if for instance
-a 1 is diagonally next to a 0, the two edges next to the 0 must be X’s because they can’t both be lines. 
+When a 1 has a dot with only two possible directions, both belonging to the 1, we know that our line will not belong to that
+dot. If it did, we would need to both enter and exit that dot on the 1, meaning we would end up with too many lines. Thus, we
+know that dot is empty, and our line belongs to the dot on the opposite corner.
+
+|ico62| |ico63| |ico64|
+
+Our line will need to exit from this corner, so if we only have one way for that to happen, we can fill that line. Otherwise, we
+can just keep in mind that we will have a line pointing out from that 1, similar to a 2 with a line entering the other corner.
+
+|ico65| |ico66|
 
 .. note::
 
@@ -196,15 +204,6 @@ a 1 is diagonally next to a 0, the two edges next to the 0 must be X’s because
    `Contributing page <https://puzzle-team-advice.readthedocs.io/en/latest/contributing.html>`_ to learn how to contribute.
 
 
-.. |ico1| image:: ../img/loop/loop2.png
-   :class: no-scaled-link
-   :width: 30%
-.. |ico2| image:: ../img/loop/loop3.png
-   :class: no-scaled-link
-   :width: 30%
-.. |ico3| image:: ../img/loop/loop4.png
-   :class: no-scaled-link
-   :width: 30%
 
 .. |ico13| image:: ../img/loop/loop21.png
    :class: no-scaled-link
@@ -362,3 +361,27 @@ a 1 is diagonally next to a 0, the two edges next to the 0 must be X’s because
 .. |ico59| image:: ../img/loop/loop74.png
    :class: no-scaled-link
    :width: 18%
+
+.. |ico60| image:: ../img/loop/loop79.png
+   :class: no-scaled-link
+   :width: 45%
+.. |ico61| image:: ../img/loop/loop80.png
+   :class: no-scaled-link
+   :width: 45%
+
+.. |ico62| image:: ../img/loop/loop81.png
+   :class: no-scaled-link
+   :width: 30%
+.. |ico63| image:: ../img/loop/loop82.png
+   :class: no-scaled-link
+   :width: 30%
+.. |ico64| image:: ../img/loop/loop83.png
+   :class: no-scaled-link
+   :width: 30%
+
+.. |ico65| image:: ../img/loop/loop84.png
+   :class: no-scaled-link
+   :width: 45%
+.. |ico66| image:: ../img/loop/loop85.png
+   :class: no-scaled-link
+   :width: 45%
