@@ -181,7 +181,7 @@ A common instance of this type of propagation is an L-shaped corner pointing at 
 
 Since a corner pointing towards a 2 will force the opposite corner to have both lines, we know that we can't have any lines
 entering on that opposite corner. Together with the reverse case, where a line entering a 2 means the opposite corner will 
-have a line exiting (and thus can't be corner pointing at the 2), we can make a new deduction. If two opposite corners of a
+have a line exiting (and thus can't be a corner pointing at the 2), we can make a new deduction. If two opposite corners of a
 2 both have lines which may possibly enter the 2, those lines will definitely enter the 2.
 
 |ico81| |ico82| |ico83| |ico84|
