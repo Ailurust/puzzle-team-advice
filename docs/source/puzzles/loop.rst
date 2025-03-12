@@ -186,6 +186,15 @@ have a line exiting (and thus can't be a corner pointing at the 2), we can make 
 
 |ico81| |ico82| |ico83| |ico84|
 
+This works even when we are unsure of how the line will be entering. For example, if we have a 2 diagonally adjacent to a 3, 
+with a line entering the dot on it's opposite corner, we know that the line exiting that dot will belong to the 2.
+
+|ico90| |ico91|
+
+A good place to look for this pattern is near diagonally adjacent 3s.
+
+|ico88| |ico89|
+
 
 1s
 ---
@@ -212,7 +221,7 @@ Advanced
 ---------
 
 The above sections should hopefully be enough for you to eventually arrive at the next patterns on your own, and I encourage you
-to play a bit and see what you can discover on your own. That being said, here are some more involved patterns that result from 
+to play a bit and see what you can discover. That being said, here are some more involved patterns that result from 
 some of what we talked about in the previous sections. I'll be using examples found in the wild this time, so don't worry too 
 much about the extra numbers or markings, just focus on the conditions of the pattern in question.
 
@@ -238,6 +247,7 @@ it's lines will be to the right and left. If we had placed a line on the bottom 
 adjacent 2s, so we would be unable to place our second line.
 
 |ico85| |ico86| |ico87|
+
 
 
 Here are a few common 3 patterns that can cause loops. 
@@ -497,3 +507,17 @@ Here are a few common 3 patterns that can cause loops.
 .. |ico87| image:: ../img/loop/loop107.png
    :class: no-scaled-link
    :width: 30%
+
+.. |ico88| image:: ../img/loop/loop108.png
+   :class: no-scaled-link
+   :width: 45%
+.. |ico89| image:: ../img/loop/loop109.png
+   :class: no-scaled-link
+   :width: 45%
+
+.. |ico90| image:: ../img/loop/loop110.png
+   :class: no-scaled-link
+   :width: 45%
+.. |ico91| image:: ../img/loop/loop111.png
+   :class: no-scaled-link
+   :width: 45%
