@@ -554,13 +554,13 @@ Thus, we know that the line from the third dot will exit upwards.
    :class: no-scaled-link
    :width: 20%
 
-.. |ico96| image:: ../img/loop/loop118.png
+.. |ico96| image:: ../img/loop/loop116.png
    :class: no-scaled-link
    :width: 20%
 .. |ico97| image:: ../img/loop/loop119.png
    :class: no-scaled-link
    :width: 20%
-.. |ico98| image:: ../img/loop/loop116.png
+.. |ico98| image:: ../img/loop/loop118.png
    :class: no-scaled-link
    :width: 20%
 .. |ico99| image:: ../img/loop/loop117.png
