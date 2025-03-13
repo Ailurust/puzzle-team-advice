@@ -248,6 +248,10 @@ adjacent 2s, so we would be unable to place our second line.
 
 |ico85| |ico86| |ico87|
 
+Another aspect of these 2s is loop-related. If one of the dots that is not part of the gap only has available spots belonging to
+the 2, that is where both lines for the 2 will be. Otherwise, you would end up with a line that has nowhere to go. 
+
+|ico92| |ico93| |ico94| |ico95|
 
 
 Here are a few common 3 patterns that can cause loops. 
@@ -255,6 +259,21 @@ Here are a few common 3 patterns that can cause loops.
 |ico75| |ico76| |ico77|
 
 |ico78| |ico79| |ico80|
+
+
+Finally, let's logically describe an intuitive aspect that I haven't really addressed. There must be an even number of lines 
+entering/exiting any given region of the puzzle. This prevents dots with odd numbers of lines, since as we established, dots can
+have either 0 or 2 lines attached. 
+
+It's obvious at a glance that a closed loop will have an inside and an outside, and never the twain shall meet. Check out the 
+`Jordan curve theorem <https://en.wikipedia.org/wiki/Jordan_curve_theorem>`_ if you want a proof of this. The even number of lines
+rule is a consequence of this observation, since an odd number of lines would not be able to keep the inside and outside separate.
+
+To use this in a solve, look for closed off regions. In the example below, if the line entering the third dot exits down or to the
+right, we will have three lines entering the area. If that happens, we will end up with a dead end for one of the other two dots.
+Thus, we know that the line from the third dot will exit upwards.
+
+|ico96| |ico97| |ico98| |ico99|
 
 
 
@@ -521,3 +540,29 @@ Here are a few common 3 patterns that can cause loops.
 .. |ico91| image:: ../img/loop/loop111.png
    :class: no-scaled-link
    :width: 45%
+
+.. |ico92| image:: ../img/loop/loop112.png
+   :class: no-scaled-link
+   :width: 20%
+.. |ico93| image:: ../img/loop/loop113.png
+   :class: no-scaled-link
+   :width: 20%
+.. |ico94| image:: ../img/loop/loop114.png
+   :class: no-scaled-link
+   :width: 20%
+.. |ico95| image:: ../img/loop/loop115.png
+   :class: no-scaled-link
+   :width: 20%
+
+.. |ico96| image:: ../img/loop/loop118.png
+   :class: no-scaled-link
+   :width: 20%
+.. |ico97| image:: ../img/loop/loop119.png
+   :class: no-scaled-link
+   :width: 20%
+.. |ico98| image:: ../img/loop/loop116.png
+   :class: no-scaled-link
+   :width: 20%
+.. |ico99| image:: ../img/loop/loop117.png
+   :class: no-scaled-link
+   :width: 20%
