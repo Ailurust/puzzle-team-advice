@@ -4,7 +4,7 @@
 
 project = 'Puzzle-Team-Advice'
 copyright = '2025, beatrixwashere'
-author = 'beatrixwashere'
+author = 'beatrixwashere et al.'
 
 release = '1.0'
 version = '1.0.0'
@@ -30,6 +30,7 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+html_scaled_image_link = True
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
